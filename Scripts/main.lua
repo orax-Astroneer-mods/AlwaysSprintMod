@@ -44,7 +44,9 @@ loadOptions()
 ---@diagnostic disable-next-line: redundant-parameter
 NotifyOnNewObject("/Script/Astro.AstroCharacterMovementComponent", function(movementComponent)
     ExecuteWithDelay(5000, function()
-        movementComponent.SprintMultiplier = SprintMultiplier ---@diagnostic disable-line: assign-type-mismatch
-        movementComponent.MaxSpeed = MaxSpeed ---@diagnostic disable-line: assign-type-mismatch
+        if movementComponent:IsValid() and not movementComponent:IsBeingDestroyed() then
+            movementComponent.SprintMultiplier = SprintMultiplier ---@diagnostic disable-line: assign-type-mismatch
+            movementComponent.MaxSpeed = MaxSpeed ---@diagnostic disable-line: assign-type-mismatch
+        end
     end)
 end)
