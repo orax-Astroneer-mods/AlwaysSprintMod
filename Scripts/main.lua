@@ -2,11 +2,11 @@ local modInfo = (function()
     local info = debug.getinfo(2, "S")
     local source = info.source
     return {
-        name = source:match("@?.+\\Mods\\([^\\]+)"),
+        name = source:match("@?.+\\([^\\]+)\\[Ss]cripts\\"),
         file = source:sub(2),
         currentDirectory = source:match("@?(.+)\\"),
-        currentModDirectory = source:match("@?(.+\\Mods\\[^\\]+)"),
-        modsDirectory = source:match("@?(.+\\Mods)\\")
+        currentModDirectory = source:match("@?(.+)\\[Ss]cripts\\"),
+        modsDirectory = source:match("@?(.+)\\[^\\]+\\[Ss]cripts\\")
     }
 end)()
 
