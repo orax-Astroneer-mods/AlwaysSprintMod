@@ -1,7 +1,7 @@
 {
     "$schema": "./resources/schema.json",
     "author": "orax",
-    "description": "Allows you to change the value of the \"sprint multiplier\" and \"max speed\".",
+    "description": "Customize Max Speed and Sprint Multiplier. Adds control over movement and jump penalties for all encumbrance levels and item tiers.",
     "homepage": "https://www.nexusmods.com/profile/0R4X/mods?gameId=1955",
-    "name": "Always Sprint"
+    "name": "Movement Tweaks"
 }
