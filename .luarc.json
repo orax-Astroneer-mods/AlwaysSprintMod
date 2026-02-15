@@ -5,6 +5,7 @@
         "TestsMod"
     ],
     "diagnostics.libraryFiles": "Disable",
+    "diagnostics.ignoredFiles": "Opened",
     "workspace.ignoreDir": [
         ".vscode"
     ],

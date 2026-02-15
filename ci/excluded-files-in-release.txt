@@ -1,2 +1,3 @@
 .gitignore
 mod.json
+workspace.code-workspace
