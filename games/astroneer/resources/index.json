@@ -1,0 +1,13 @@
+{
+  "mods": {
+    "MovementTweaksMod": {
+      "latest_version": "0.2.0",
+      "versions": {
+        "0.2.0": {
+          "download_url": "https://github.com/orax-Astroneer-mods/MovementTweaksMod/releases/download/v0.2.0/000-MovementTweaksMod-0.2.0_P.pak",
+          "filename": "000-MovementTweaksMod-0.2.0_P.pak"
+        }
+      }
+    }
+  }
+}
